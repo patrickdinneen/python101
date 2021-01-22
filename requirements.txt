@@ -1,0 +1,7 @@
+ipython
+jupyter
+jedi==0.17.2
+parso==0.7.1
+rpy2
+numpy
+pandas==1.2.0
