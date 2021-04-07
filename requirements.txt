@@ -5,3 +5,4 @@ parso==0.7.1
 rpy2
 numpy
 pandas==1.2.0
+flask
