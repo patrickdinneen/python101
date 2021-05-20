@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <h1>{{ human.name }}</h1>
+
+        {% if human.pets %}
+        <h2>Pets</h2>
+        <ul>
+            {% for pet in human.pets %}
+            <li>{{ pet }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <h2>No Pets! :(</h2>
+        {% endif %}
+    </body>
+</html>
